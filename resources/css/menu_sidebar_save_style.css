@@ -1,0 +1,130 @@
+html{
+  font-size: 18px;
+
+}
+body{
+
+}
+
+
+.masthead {
+    position: relative;
+    border-bottom: 1px solid #f2f3f3;
+    -webkit-animation: intro 0.3s both;
+    animation: intro 0.3s both;
+        animation-delay: 0s;
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+    z-index: 20;
+}
+
+.masthead__inner-wrap {
+    max-width: 925px;
+
+    margin-right: auto;
+    clear: both;
+    padding: 1em 1em 1em;
+    font-family: -apple-system,".SFNSText-Regular","San Francisco","Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+}
+.masthead_menu{
+  box-sizing: border-box;
+}
+
+.greedy-nav {
+    position: relative;
+    min-width: 250px;
+    background: #fff;
+}
+
+.greedy-nav .visible-links {
+    display: table;
+}
+.masthead__menu ul {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    list-style-type: none;
+}
+.greedy-nav .visible-links li:first-child {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.greedy-nav .visible-links li {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.greedy-nav a {
+    display: block;
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+    color: #7a8288;
+    text-decoration: none;
+}
+
+
+.body-divide{
+  margin-top:1.5rem;
+}
+.left-side-heading{
+  text-align: center;
+}
+
+
+
+
+
+
+.my-image img{
+  vertical-align: middle;
+border-style: none;
+height: 10rem;
+width: 12rem;
+border-radius: 33%;
+border: 1px solid #ddd;
+
+}
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.table{
+
+  margin-top:2rem;
+  font-size: .9rem;
+}
+
+.table tbody tr td a{
+  color:black;
+}
+
+
+
+
+.body-left{
+  width: 15.2542372881%;
+float: left;
+margin-right: 1.6949152542%;
+opacity: 1;
+-webkit-transition: opacity 0.2s ease-in-out;
+transition: opacity 0.2s ease-in-out;
+position: sticky;
+ display: block;   // this is the same as shown above
+ top: 0;
+}
+
+
+
+.page {
+    width: 83.0508474576%;
+    float: right;
+    margin-right: 0;
+    padding-left: 4.2372881356%;
+    padding-right: 16.9491525424%;
+}
+
+#ssticky{
+  position: sticky;
+   display: block;   // this is the same as shown above
+   top: 0;
+
+}
